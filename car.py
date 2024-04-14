@@ -41,7 +41,8 @@ class Car:
         self._wheels = self.create_wheels()
         self.rect = pygame.Rect(self.x, self.y, self.width, self.length)
         self.bumper = Bumper(self)
-        self.headlights = [Headlight.create_left_headlight(self.bumper), Headlight.create_right_headlight(self.bumper)]
+        self.headlights = Headlight.create_headlights(self.bumper)
+        #self.headlights = [Headlight.create_left_headlight(self.bumper), Headlight.create_right_headlight(self.bumper)]
 
     @property
     def front_wheels(self):

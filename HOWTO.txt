@@ -1,0 +1,3 @@
+to run example codes:
+(in the parent directory) 
+=> python -m visualizer.examples.<example_script>

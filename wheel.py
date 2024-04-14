@@ -23,7 +23,7 @@ SOFTWARE.
 """
 
 
-from math import sin, cos, radians, pi
+from math import sin, cos, radians
 import pygame
 from .constants import *
 
