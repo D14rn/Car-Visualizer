@@ -22,11 +22,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
+
 from math import radians
 import pygame
-from wheel import Wheel
-from constants import RED, YELLOW
-from car_cosmetics import Bumper, Headlight
+from .wheel import Wheel
+from .constants import RED, YELLOW
+from .car_cosmetics import Bumper, Headlight
 
 
 class Car:

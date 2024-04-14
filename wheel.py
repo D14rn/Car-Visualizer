@@ -22,9 +22,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
+
 from math import sin, cos, radians, pi
 import pygame
-from constants import *
+from .constants import *
 
 
 class Wheel:
